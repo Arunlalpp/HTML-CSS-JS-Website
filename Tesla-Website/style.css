@@ -108,6 +108,7 @@ section .buttons {
 
 aside {
     position: fixed;
+    transition: right .4s ease;
     right: -320px  ;
     width: 320px;
     background-color: #fff;

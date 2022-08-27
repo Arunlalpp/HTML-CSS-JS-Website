@@ -2,7 +2,9 @@ document.lastScrollPostion = 0;
 document.lastCentered = 0
 
 
-document.addEventListener("#scroll",() =>{
+console.log("sreeeeeeeee")
+
+document.addEventListener("#scroll", listener,() =>{
     const direction = window.pageYOffset - document.lastScrollPostion > 0  ? "down" : "up";
     const sections = [...document.querySelectorAll(selectors, 'section')];
 
@@ -11,12 +13,12 @@ document.addEventListener("#scroll",() =>{
 
     if(destIndex>= 0 && destIndex < sections.length){
         console.log({destIndex,direction});
+        document.onWayTo = destIndex;
+
         window.scroll(sections[destIndex].offsetTop)
     }
 
-
-    
-    sections.forEach((section,index: number ) => 
+    sections.forEach((section,index ) => 
     {
         if(window.pageYOffset === section.offsetTop){
             document.lastCentered = index;

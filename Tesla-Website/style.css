@@ -58,13 +58,21 @@ section {
 
 section .content {
     width: 100%;
+    position: fixed;
+    opacity: 0;
+    top: 0;
     height: 100vh;
     padding-top: 15vh;
     padding-bottom: 15vh;
+    transition: opacity .3 ease;
     text-align: center;
+    display: grid;
     grid-template-rows: min-content auto min-content;
 }
 
+section.active .content {
+    opacity: 1;
+}
 section h1 {
     font-size: 3rem;
 }
@@ -93,6 +101,10 @@ section .buttons a:first-child {
 section .buttons {
     display: grid;
     row-gap: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 @media (min-width:768px) {
@@ -144,9 +156,11 @@ aside button.close {
     display: none;
     position: fixed;
     inset: 0;
+    z-index: 3;
     background-color: rgba(0,0,0,.35);
     backdrop-filter: blur(5px);
 }
 .backdrop.active{
     display: block;
+    background-color: rgba(0,0,0,.35);
 }

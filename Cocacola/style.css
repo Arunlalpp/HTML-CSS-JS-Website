@@ -1,11 +1,12 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-section{
+
+section {
     position: relative;
-    width:100%;
+    width: 100%;
     min-height: 100vh;
     padding: 100px;
     display: flex;
@@ -13,7 +14,8 @@ section{
     align-items: center;
     background: #161616;
 }
-section .circle{
+
+section .circle {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,18 +24,22 @@ section .circle{
     background: #e51e2a;
     clip-path: circle(70% at right -20%);
 }
-header .logo{
+
+header .logo {
     position: relative;
     max-width: 150px;
 }
-header .navigation{
+
+header .navigation {
     position: relative;
     display: flex;
 }
+
 header .navigation li {
     list-style: none;
 }
-header .navigation li a{
+
+header .navigation li a {
     display: inline-block;
     color: #fff;
     font-weight: 500;

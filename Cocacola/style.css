@@ -25,7 +25,7 @@ section .circle {
     clip-path: circle(70% at right -20%);
 }
 
-header{
+header {
     position: absolute;
     top: 0;
     left: 0;

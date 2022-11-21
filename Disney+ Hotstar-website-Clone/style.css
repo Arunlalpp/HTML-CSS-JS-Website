@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     width: 1005;
     background: #0c111b;
     position: relative;
-    font-family: 'Roboto',sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
-.navbar{
+
+.navbar {
     width: 100%;
     height: 80px;
     position: fixed;
@@ -22,23 +25,27 @@ body{
     display: flex;
     align-items: center;
 }
-.brand-logo{
+
+.brand-logo {
     width: 115px;
     height: 45px;
 }
-.nav-links{
+
+.nav-links {
     margin-top: 10px;
     display: flex;
     list-style: none;
 }
-.nav-items a{
+
+.nav-items a {
     text-decoration: none;
     margin-left: 20px;
     text-transform: capitalize;
     color: #fff;
     opacity: 9;
 }
-.kids-icon{
+
+.kids-icon {
     width: 40px;
     height: 15px;
 }

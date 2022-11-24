@@ -84,3 +84,12 @@ body {
     margin: 0 10px;
     cursor: pointer;
 }
+.login-link{
+    color: #fff;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 80px;
+    text-decoration: none;
+}

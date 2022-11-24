@@ -49,11 +49,13 @@ body {
     width: 40px;
     height: 15px;
 }
-.search-container{
+
+.search-container {
     display: flex;
     margin-left: auto;
 }
-.search-box{
+
+.search-box {
     border: none;
     border-bottom: 1px solid #aaa;
     background: transparent;
@@ -66,11 +68,13 @@ body {
     font-weight: 500;
     transition: 0.5s;
 }
-.earch-box{
+
+.earch-box {
     width: 400px;
     border-color: #1f80ce;
 }
-.sub-btn{
+
+.sub-btn {
     background: #1f80ce;
     height: 30px;
     padding: 0 20px;
@@ -84,7 +88,8 @@ body {
     margin: 0 10px;
     cursor: pointer;
 }
-.login-link{
+
+.login-link {
     color: #fff;
     opacity: 0.9;
     text-transform: uppercase;

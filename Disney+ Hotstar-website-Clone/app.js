@@ -33,4 +33,19 @@ const createSlide=()=>{
     imgElement.src=movie[slideIndex].images;
     slideIndex++;
 
+    // setting elements
+
+    slide.className='slider';
+    content.className='slider-content';
+    h1.className='slider-title';
+    p.className='slider-desc';
+
+    sliders.push(slide);
+
+    // adding sliding effect
+
+    if(sliders.length){
+        
+    }
+
 }

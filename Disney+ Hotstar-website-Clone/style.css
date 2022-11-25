@@ -50,8 +50,8 @@ body {
     height: 15px;
 }
 
-.search-container {
-    display: flex;
+.right-container {
+    display: block;
     margin-left: auto;
 }
 
@@ -69,7 +69,7 @@ body {
     transition: 0.5s;
 }
 
-.earch-box {
+.search-box:focus {
     width: 400px;
     border-color: #1f80ce;
 }
@@ -115,6 +115,32 @@ body {
     margin: auto;
     background: #000;
 }
-
+.slider{
+    flex: 0 0 auto;
+    margin-right: 30px;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+.slider img{
+    width: 70%;
+    min-height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+}
+.slider-content{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to right,#030b17 80%,#0c111b00);
+    color: #fff;
+    z-index: 2;
+}
 /* carousel section end */
 

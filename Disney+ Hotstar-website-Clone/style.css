@@ -147,7 +147,8 @@ body {
     color: #fff;
     z-index: 2;
 }
-.movie-desc{
+
+.movie-desc {
     width: 80%;
     line-height: 30px;
     padding-left: 50px;

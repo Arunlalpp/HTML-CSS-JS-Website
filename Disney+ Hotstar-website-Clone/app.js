@@ -4,7 +4,7 @@ let sliders = [];
 let slideIndex = 0;
 
 const createSlide = () => {
-	if (slideIndex >= DeviceMotionEvent.legth) {
+	if (slideIndex >= DeviceMotionEvent.length) {
 		slideIndex = 0;
 	}
 
@@ -29,20 +29,26 @@ const createSlide = () => {
 
 	// setting up images which is in slider-data.js
 
-	imgElement.src = movie[slideIndex].images;
+	imgElement.src = movie[slideIndex].image;
 	slideIndex++;
 
 	// setting elements
 
 	slide.className = "slider";
 	content.className = "slider-content";
-	h1.className = "slider-title";
-	p.className = "slider-desc";
+	h1.className = "movie-title";
+	p.className = "movie-desc";
 
 	sliders.push(slide);
 
 	// adding sliding effect
 
 	if (sliders.length) {
+		sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}%-${
+			30 * (sliders.length - 2)
+		}px)`;
+	}
+	for (let i = 0; i < 6; i++) {
+		createSlide();
 	}
 };

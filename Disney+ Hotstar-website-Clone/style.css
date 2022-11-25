@@ -98,8 +98,9 @@ body {
     margin-top: 80px;
     text-decoration: none;
 }
+
 /* carousel section start */
-.carousel-container{
+.carousel-container {
     position: relative;
     width: 100%;
     height: 450px;
@@ -107,7 +108,8 @@ body {
     overflow-x: hidden;
     margin-top: 80px;
 }
-.carousel{
+
+.carousel {
     display: flex;
     width: 92%;
     height: 100%;
@@ -115,11 +117,12 @@ body {
     margin: auto;
     background: #000;
 }
-.slider{
+
+.slider {
     flex: 0 0 auto;
     margin-right: 30px;
     position: relative;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     width: 100%;
     height: 100%;
@@ -127,20 +130,22 @@ body {
     transition: 1s;
     overflow: hidden;
 }
-.slider img{
+
+.slider img {
     width: 70%;
     min-height: 100%;
     object-fit: cover;
     display: block;
     margin-left: auto;
 }
-.slider-content{
+
+.slider-content {
     position: absolute;
     width: 50%;
     height: 100%;
-    background: linear-gradient(to right,#030b17 80%,#0c111b00);
+    background: linear-gradient(to right, #030b17 80%, #0c111b00);
     color: #fff;
     z-index: 2;
 }
-/* carousel section end */
 
+/* carousel section end */

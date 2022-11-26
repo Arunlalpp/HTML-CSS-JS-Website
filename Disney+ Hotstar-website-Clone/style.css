@@ -115,7 +115,7 @@ body {
     height: 100%;
     position: relative;
     margin: auto;
-    background: #000;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .slider {
@@ -146,6 +146,12 @@ body {
     background: linear-gradient(to right, #030b17 80%, #0c111b00);
     color: #fff;
     z-index: 2;
+}
+
+.movie-title {
+    text-transform: capitalize;
+    padding-left: 50px;
+    margin-top: 80px;
 }
 
 .movie-desc {

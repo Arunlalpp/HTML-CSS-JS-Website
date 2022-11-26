@@ -2,7 +2,7 @@ let movies = [
 	{
 		name: "WI  vs IND 317/8 (50)",
 		des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro et veniam excepturi, eaque voluptatem impedit nulla laboriosam facilis ut laboriosam libero!",
-		image: "images/images/slider 1.PNG",
+		image: "images/images/slider 2.PNG",
 	},
 	{
 		name: "Rudra: The Edge of Darkness",

@@ -43,6 +43,8 @@ const createSlide = () => {
 
 	// adding sliding effect
 
+
+	
 	if (sliders.length) {
 		sliders[0].style.marginLeft = `calc(-${100 * (sliders.length - 2)}% -${
 			30 * (sliders.length - 2)

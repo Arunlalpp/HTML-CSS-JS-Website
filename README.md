@@ -1,1 +1,1 @@
-# HTML-CSS-JS-Website based on some youtube video
+# HTML-CSS-JS-Website based on some youtube videos

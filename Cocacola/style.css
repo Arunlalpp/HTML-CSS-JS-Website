@@ -57,3 +57,66 @@ header .navigation li a {
   text-decoration: none;
   margin-left: 40px;
 }
+.content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+  margin-right: 10px;
+}
+.content .textBox h2 {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.4em;
+  margin-bottom: 10px;
+}
+.content .textBox p {
+  color: #fff;
+}
+.content .textBox a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 28px;
+  background: #e51e2a;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.sci {
+  position: absolute;
+  bottom: 40px;
+  left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sci li {
+  list-style: none;
+}
+.sci li a {
+  display: inline-block;
+  margin-left: 15px;
+  background: #222;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+.sci li a:hover {
+  background: #e51e2a;
+  transform: translateY(-10px);
+}
+.sci li a img {
+  filter: invert(1);
+  transform: scale(0.5);
+}

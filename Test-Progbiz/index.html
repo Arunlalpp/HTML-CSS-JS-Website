@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="./assets/Logo.svg" alt="Logo" />
+            </div>
+            <ul class="links">
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/Meter.svg" alt="meter" /></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/Cart.svg" alt="cart" /></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/Delink.svg" alt="Delink" /></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/Calender.svg" alt="Calender" /></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/Privacy.svg" alt="Privacy" /></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/Message.svg" alt="Message" /></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/Visual.svg" alt="Visual" /></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/Calculator.svg" alt="" /></a>
+                </li>
+                <li>
+                    <a href="#"><img class="sideImage" src="./assets/files.svg" alt="" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./assets/Chart.svg" alt="" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="./assets/ico.svg" alt="" /></a>
+                </li>
+            </ul>
+            <div class="profileImage">
+                <a href="#"><img src="./assets/User Pic.png" alt="" class="image" /></a>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="contentWrapper">
+                <div class="wrapperContainer">
+                    <div class="companyLogo">
+                        <button type="button">PB</button>
+                        <div class="contents">
+                            <div class="companyName">Progbiz Private Limited</div>
+                            <div class="address">8484 Ross Wells</div>
+                        </div>
+                    </div>
+                    <button type="button" class="downArrow">
+                        <img src="./assets/DownArrow.svg" alt="DownArrow" />
+                    </button>
+                </div>
+            </div>
+            <div class="progressContainer">
+                <div class="contentHeader">
+                    <div class="invoices">Invoices breakdown</div>
+                    <div class="description">Learn more about invoices created</div>
+                </div>
+                <div class="progressWrapper">
+                    <div class="cardContents">
+                        <div class="cardContainer">
+                            <div class="contents">
+                                <h4>All Invoices</h4>
+                                <p>Week comparison</p>
+                            </div>
+                            <div class="rate">
+                                <span>1.345</span>
+                                <img src="./assets/ArrowUp.svg" alt="arrow" />
+                            </div>
+                        </div>
+                        <div class="progressWrapper">
+                            <div class="progress-container">
+                                <div id="progress-bar" class="progress-bar"
+                                    style="background-color: #5e81f4; width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressWrapper">
+                    <div class="cardContents">
+                        <div class="cardContainer">
+                            <div class="contents">
+                                <h4>Scheduled</h4>
+                                <p>Month comparison</p>
+                            </div>
+                            <div class="rate">
+                                <span>3.820</span>
+                            </div>
+                        </div>
+                        <div class="progressWrapper">
+                            <div class="progress-container">
+                                <div id="progress-bar" class="progress-bar"
+                                    style="background-color: #f4be5e; width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressWrapper">
+                    <div class="cardContents">
+                        <div class="cardContainer">
+                            <div class="contents">
+                                <h4>Unpaid</h4>
+                                <p>Week comparison</p>
+                            </div>
+                            <div class="rate">
+                                <span>$4690</span>
+                                <img src="./assets/ArrowUp.svg" alt="arrow" />
+                            </div>
+                        </div>
+                        <div class="progressWrapper">
+                            <div class="progress-container">
+                                <div id="progress-bar" class="progress-bar"
+                                    style="background-color: #ff808b; width: 20%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="progressWrapper">
+                    <div class="cardContents">
+                        <div class="cardContainer">
+                            <div class="contents">
+                                <h4>Paid</h4>
+                                <p>Month comparison</p>
+                            </div>
+                            <div class="rate">
+                                <span>$3820</span>
+                            </div>
+                        </div>
+                        <div class="progressWrapper">
+                            <div class="progress-container">
+                                <div id="progress-bar" class="progress-bar"
+                                    style="background-color: #7ce7ac; width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="invoiceContainer">
+            <div class="headerWrapper">
+                <div class="leftSection">
+                    <div class="svgBg">
+                        <img src="assets/Hamburger.svg" alt="hamburger" />
+                    </div>
+                    <span>New Invoice</span>
+                </div>
+                <div class="headerItems">
+                    <div class="svgBg">
+                        <img src="assets/Add.svg" alt="add" />
+                    </div>
+                    <div class="svgBg">
+                        <img src="assets/search.svg" alt="search" />
+                    </div>
+                </div>
+            </div>
+            <div class="mainContainer">
+                <div class="invoiceWrapper">
+                    <div class="uploadContainer">
+                        <img src="assets/Upload.svg" alt="upload" />
+                        <span>upload image</span>
+                    </div>
+                    <div class="invoiceMainCardSection">
+                        <div class="invoiceContainerCardsLeft" style="width: 50%">
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">Invoice number</div>
+                                        <div class="invoiceNumber">AA-04-19-1890</div>
+                                    </div>
+                                    <img src="assets/InvoiceNumber.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">Company name</div>
+                                        <div class="startType">Start typing…</div>
+                                    </div>
+                                    <img src="assets/CompanyName.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">Business address</div>
+                                        <div class="startType">Start typing…</div>
+                                    </div>
+                                    <img src="assets/Address.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">Country</div>
+                                        <div class="startType">Select country</div>
+                                    </div>
+                                    <img src="assets/DownArrow.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">IPhone number</div>
+                                        <div class="startType">Start typing…</div>
+                                    </div>
+                                    <img src="assets/Phone.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">Tax rate</div>
+                                        <div class="startType">Start typing…</div>
+                                    </div>
+                                    <img src="assets/Tax.svg" alt="" />
+                                </div>
+                            </div>
+                            <div class="buttonWrapper">
+                                <button type="button" class="saveButton">Save & Send</button>
+                                <button type="button" class="cancelButton">Cancel</button>
+                            </div>
+                        </div>
+                        <div class="invoiceContainerCardsRight" style="width: 50%">
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">Template</div>
+                                        <div class="startType">Select invoice template</div>
+                                    </div>
+                                    <img src="assets/DownArrow.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">Date</div>
+                                        <div class="startType">Select due date</div>
+                                    </div>
+                                    <img src="assets/Calender.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">City</div>
+                                        <div class="startType">Select city</div>
+                                    </div>
+                                    <img src="assets/DownArrow.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <div class="invoiceUnit">
+                                    <div>
+                                        <div class="header">Email</div>
+                                        <div class="startType">Start typing…</div>
+                                    </div>
+                                    <img src="assets/Mail.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutSection">
+                    <div class="endSection">
+                        <div class="cardDetailsWrapper">
+                            <div class="image">
+                                <img src="assets/Bill.svg" alt="bill" />
+                            </div>
+                            <div class="detailsTexts">
+                                <div class="endHeader">Bill To</div>
+                                <div class="description">Set your customer’s details</div>
+                            </div>
+                        </div>
+                        <div class="cardDetailsWrapper">
+                            <div class="image">
+                                <img src="assets/Form.svg" alt="form" />
+                            </div>
+                            <div class="detailsTexts">
+                                <div class="endHeader">From</div>
+                                <div class="description">Set your personal details</div>
+                            </div>
+                        </div>
+                        <div class="cardDetailsWrapperEnd">
+                            <div class="image">
+                                <img src="assets/Description.svg" alt="description" />
+                            </div>
+                            <div class="detailsTexts">
+                                <div class="endHeader">Description</div>
+                                <div class="description">Add products or items</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottomCardWrapper">
+                        <div class="bottomSection">
+                            <div class="cardDetailsWrapper">
+                                <div class="image">
+                                    <img src="assets/Draft.svg" alt="draft" />
+                                </div>
+                                <div class="detailsTexts">
+                                    <div class="endHeader">Save As a Draft</div>
+                                    <div class="description">Edit and send this invoice later</div>
+                                </div>
+                            </div>
+                            <div class="cardDetailsWrapperEnd">
+                                <div class="image">
+                                    <img src="assets/delete.svg" alt="delete" />
+                                </div>
+                                <div class="detailsTexts">
+                                    <div class="endHeader">Delete Invoice</div>
+                                    <div class="description">Hide & disable current invoice</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
